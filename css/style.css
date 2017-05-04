@@ -53,6 +53,8 @@ body{
     background-color: #66F2E5;
     border-color: #8d5e30;
     border-radius : 10px;
+    line-height: 31px;
+    overflow: hidden;
 }
 
 #tableau{
@@ -70,6 +72,8 @@ table{
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+    border: #906131 solid 0.5px;
 }
 
 .touchece{
@@ -77,4 +81,44 @@ table{
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+    border: #906131 solid 0.5px;
+}
+
+.touchece a{
+    text-decoration: none;
+    color :  #986937;
+}
+
+
+@media screen and (max-width: 544px) {
+    body{
+            font-size: 29px;
+    }
+    
+     #ours {
+        width: 100%;
+        display: flex;
+        margin: auto;
+        background-image: url(../images/nounours.png);
+        height: 73%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    
+    #calc {
+        width: 45%;
+        margin: auto;
+        height: 35%;
+        text-align: center;
+        position: absolute;
+        top: 468px;
+        left: 255px;
+    }
+    
+    #ecran{
+        height: 80px;
+        line-height: 65px;
+    }
 }
