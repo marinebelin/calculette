@@ -55,6 +55,7 @@ body{
     border-radius : 10px;
     line-height: 31px;
     overflow: hidden;
+    letter-spacing: 2px;
 }
 
 #tableau{
